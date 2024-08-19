@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/ddxy/下载/dnn/build",
+  "command": "/usr/bin/c++ -I/home/ddxy/下载/dnn/. -I/home/ddxy/下载/dnn -I/home/ddxy/下载/dnn/include -isystem /usr/local/include/opencv4 -std=c++17 -g -std=gnu++17 -o CMakeFiles/v1.dir/src/main.cpp.o -c /home/ddxy/下载/dnn/src/main.cpp",
+  "file": "/home/ddxy/下载/dnn/src/main.cpp",
+  "output": "CMakeFiles/v1.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ddxy/下载/dnn/build",
+  "command": "/usr/bin/c++ -I/home/ddxy/下载/dnn/. -I/home/ddxy/下载/dnn -I/home/ddxy/下载/dnn/include -isystem /usr/local/include/opencv4 -std=c++17 -g -std=gnu++17 -o CMakeFiles/v1.dir/src/dnn.cpp.o -c /home/ddxy/下载/dnn/src/dnn.cpp",
+  "file": "/home/ddxy/下载/dnn/src/dnn.cpp",
+  "output": "CMakeFiles/v1.dir/src/dnn.cpp.o"
+}
+]
