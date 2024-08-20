@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ddxy/\u4e0b\u8f7d/dnn/build"
+			"value" : "/home/ddxy/Downloads/dnn/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -159,7 +159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-13"
+			"value" : "/usr/bin/gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-13"
+			"value" : "/usr/bin/gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -287,7 +287,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-13"
+			"value" : "/usr/bin/gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -303,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-13"
+			"value" : "/usr/bin/gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ddxy/\u4e0b\u8f7d/dnn/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/ddxy/Downloads/dnn/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -590,6 +590,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -599,7 +611,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ddxy/\u4e0b\u8f7d/dnn"
+			"value" : "/home/ddxy/Downloads/dnn"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1511,7 +1523,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "CUDA_VERBOSE_BUILD",
@@ -1890,6 +1902,22 @@
 			"value" : "/usr/share/cmake-3.28/Modules/FindCUDA/parse_cubin.cmake"
 		},
 		{
+			"name" : "CUDA_rt_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/librt.a"
+		},
+		{
 			"name" : "CUDA_run_nvcc",
 			"properties" : 
 			[
@@ -1911,7 +1939,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr][/usr/bin/nvcc][/usr/include][/usr/lib/x86_64-linux-gnu/libcudart.so][v12.0()]"
+			"value" : "[/usr][/usr/bin/nvcc][/usr/include][/usr/lib/x86_64-linux-gnu/libcudart_static.a][v12.0()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenCV",
@@ -1924,6 +1952,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[/usr/local][v4.9.0()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Threads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[TRUE][v()]"
 		},
 		{
 			"name" : "OpenCV_DIR",
@@ -1971,7 +2011,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ddxy/\u4e0b\u8f7d/dnn/build"
+			"value" : "/home/ddxy/Downloads/dnn/build"
 		},
 		{
 			"name" : "v1_IS_TOP_LEVEL",
@@ -1995,7 +2035,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ddxy/\u4e0b\u8f7d/dnn"
+			"value" : "/home/ddxy/Downloads/dnn"
 		}
 	],
 	"kind" : "cache",

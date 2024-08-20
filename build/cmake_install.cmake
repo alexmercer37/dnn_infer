@@ -1,4 +1,4 @@
-# Install script for directory: /home/ddxy/下载/dnn
+# Install script for directory: /home/ddxy/Downloads/dnn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ddxy/下载/dnn/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ddxy/Downloads/dnn/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

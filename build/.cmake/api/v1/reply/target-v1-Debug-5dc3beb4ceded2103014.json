@@ -81,15 +81,15 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/ddxy/\u4e0b\u8f7d/dnn/."
+					"path" : "/home/ddxy/Downloads/dnn/."
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/ddxy/\u4e0b\u8f7d/dnn"
+					"path" : "/home/ddxy/Downloads/dnn"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/ddxy/\u4e0b\u8f7d/dnn/include"
+					"path" : "/home/ddxy/Downloads/dnn/include"
 				},
 				{
 					"backtrace" : 7,
@@ -132,7 +132,7 @@
 				"role" : "libraryPath"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/usr/local/cuda/lib",
+				"fragment" : "-Wl,-rpath,/usr/local/cuda/lib:/usr/local/lib",
 				"role" : "libraries"
 			},
 			{
